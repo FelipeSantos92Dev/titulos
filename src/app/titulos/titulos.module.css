@@ -118,56 +118,6 @@
   background-color: #333333; /* Tom mais claro ao passar o mouse */
 }
 
-.footer {
-  background-color: #000000; /* Preto - cor principal do Corinthians */
-  color: white;
-  padding: 40px 20px;
-  margin-top: 40px;
-  border-top: 4px solid #ffffff; /* Branco - segunda cor do Corinthians */
-}
-
-.footerContent {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.footerSection {
-  width: 30%;
-}
-
-.footerSection h3 {
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 1.2rem;
-  color: #ffffff;
-  border-bottom: 1px solid #333333;
-  padding-bottom: 10px;
-}
-
-.socialLinks {
-  display: flex;
-}
-
-.socialLinks a {
-  margin-right: 15px;
-  color: white;
-  text-decoration: none;
-}
-
-.socialLinks a:hover {
-  text-decoration: underline;
-  color: #cccccc;
-}
-
-.copyright {
-  margin-top: 30px;
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #333333;
-  font-size: 0.9rem;
-}
-
 /* Adicionar destaque especial para a seção de conquistas principais */
 .featured {
   background-color: #f0f0f0;
