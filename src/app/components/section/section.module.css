@@ -1,0 +1,55 @@
+.featured,
+.newTrophies,
+.promo,
+.otherTrophies {
+  margin-bottom: 40px;
+}
+
+.featured h2,
+.newTrophies h2,
+.promo h2,
+.otherTrophies h2 {
+  color: #000000;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featuredTrophies,
+.trophiesGrid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Adicionar destaque especial para a seção de conquistas principais */
+.featured {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #000000;
+}
+
+/* Efeito zebrado nas seções para melhor separação visual */
+.newTrophies {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #000000;
+}
+
+.promo {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #000000;
+}
+
+.otherTrophies {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #000000;
+}
