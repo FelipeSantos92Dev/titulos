@@ -4,50 +4,6 @@
   font-family: "Arial", sans-serif;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  background-color: #000000; /* Preto - cor principal do Corinthians */
-  margin-bottom: 20px;
-  border-bottom: 4px solid #ffffff; /* Branco - segunda cor do Corinthians */
-}
-
-.header h1 {
-  margin: 0;
-  color: #ffffff; /* Texto branco sobre o fundo preto */
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-}
-
-.nav li {
-  margin: 0 15px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.nav a:hover {
-  color: #cccccc; /* Tom mais claro de branco ao passar o mouse */
-}
-
 .main {
   padding: 0 20px;
   background-color: #f8f8f8; /* Fundo claro para o conteúdo principal */

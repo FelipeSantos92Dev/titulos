@@ -1,32 +1,11 @@
 import React from "react";
 import styles from "./titulos.module.css";
+import Header from "../components/header";
 
 const CorinthiansTrophiesPage = () => {
   return (
     <div className={styles.container}>
-      <header className={styles.header}>
-        <h1>Sala de Troféus do Corinthians</h1>
-        <nav className={styles.nav}>
-          <ul>
-            <li>
-              <a href="#">Início</a>
-            </li>
-            <li>
-              <a href="#">História</a>
-            </li>
-            <li>
-              <a href="#">Campeonatos</a>
-            </li>
-            <li>
-              <a href="#">Ídolos</a>
-            </li>
-            <li>
-              <a href="#">Contato</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+      <Header />
       <main className={styles.main}>
         <section className={styles.featured}>
           <h2>Conquistas Principais</h2>
