@@ -21,34 +21,26 @@ export default function Titulos() {
               textoAlt={"Troféu do Mundial Interclubes 2012"}
               titulo={"Mundial de Clubes da FIFA"}
             />
-            <div className={styles.trophy}>
-              <div className={styles.trophyCover}>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"
-                  alt="Troféu da Copa Libertadores da América 2012"
-                />
-              </div>
-              <div className={styles.trophyInfo}>
-                <h3>Copa Libertadores da América</h3>
-                <p className={styles.year}>2012</p>
-                <p className={styles.details}>Corinthians 2 x 0 Boca Juniors</p>
-                <button className={styles.detailsButton}>Ver Detalhes</button>
-              </div>
-            </div>
-            <div className={styles.trophy}>
-              <div className={styles.trophyCover}>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"
-                  alt="Troféu da Copa Libertadores da América 2000"
-                />
-              </div>
-              <div className={styles.trophyInfo}>
-                <h3>Mundial de Clubes da FIFA</h3>
-                <p className={styles.year}>2000</p>
-                <p className={styles.details}>Corinthians 0(4) x 0(3) Vasco</p>
-                <button className={styles.detailsButton}>Ver Detalhes</button>
-              </div>
-            </div>
+
+            <Card
+              ano={2012}
+              capa={
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"
+              }
+              detalhes={"Corinthians 2 x 0 Boca Juniors"}
+              textoAlt={"Troféu da Copa Libertadores da América 2012"}
+              titulo={"Copa Libertadores da América"}
+            />
+
+            <Card
+              ano={2000}
+              capa={
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"
+              }
+              detalhes={"Corinthians 0(4) x 0(3) Vasco"}
+              textoAlt={"Troféu da Copa Libertadores da América 2000"}
+              titulo={"Mundial de Clubes da FIFA"}
+            />
           </div>
         </section>
 
