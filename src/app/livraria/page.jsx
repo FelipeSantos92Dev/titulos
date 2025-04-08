@@ -1,3 +1,4 @@
+import ThemeSwitcher from "../components/themeSwitcher";
 import styles from "./livraria.module.css";
 
 export default function Home() {
@@ -199,6 +200,7 @@ export default function Home() {
               <span className={styles.cartCount}>{cartItems.length}</span>
             </div>
             <button className={styles.iconButton}>👤</button>
+            <ThemeSwitcher />
           </div>
         </div>
       </header>
